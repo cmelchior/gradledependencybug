@@ -8,6 +8,6 @@ How to reproduce:
 
     > Cannot add task ':mylibrary:prepareComAndroidSupportRecyclerviewV72311Library'
 
-Removing the RecyclerView dependency in `my_library/build.gradle` fixes the problem, but 
+Removing the RecyclerView dependency in `mylibrary/build.gradle` fixes the problem, but 
 indicate that it works for JAR's but not AAR's.
 
